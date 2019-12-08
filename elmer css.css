@@ -1,0 +1,545 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("10499.jpg") repeat center top;
+  background-size: cover;
+}
+ul.perfil{
+    list-style-image: url("imagen1.png");
+    list-style-position: inside;
+}
+a:link{
+  text-decoration: none;
+
+}
+a:hover {
+  color: #ff5100;
+}
+img.img0{
+  position: relative;
+  float: left;
+  width: 30px;
+  top: -8px;
+  margin-right: 5px;
+}
+
+img.img1{
+    float: left;
+    width: 15px;
+    margin-right: 10px;
+  }
+  .elmer-1{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    left: -700px;
+    height: 250px;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(4, 4, 34, 0.753);
+    border-radius: 5px;
+    text-align: center;
+    word-wrap: break-word;
+    color: azure;
+    box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+    
+  .elmer-2{
+    position: absolute;
+    top: 315px;
+    right: 50px;
+    left: -700px;
+    width: 400px;
+    height: 250px;
+    margin: 40px auto;
+    padding: 20px;
+    background:  rgba(4, 4, 34, 0.753);
+    border-radius: 5px;
+    color: azure;
+    word-wrap: break-word;
+    box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+
+  .perfil1{
+      position: relative;
+      width: 330px;
+      top: -20px;
+      left: 35px;
+      margin: 0px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.986);
+      border-radius: 5px;
+      color: azure;
+      word-wrap: break-word;
+      box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+
+      .intro{
+        position: relative;
+        display: flex;
+        margin: 8px 0;
+        padding: 10px 4px 10px;
+        background: rgba(30, 29, 47, 0.678);
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Florence, cursive;
+        overflow: hidden;
+        border: 0.5px solid #000000;
+        transition: 0.5s;
+        z-index: 1;}
+        
+
+      .elmer-2:hover .intro{
+        opacity: 0.5;
+      }
+      .elmer-2 .intro:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+
+      .intro1{
+        position: relative;
+        display: flex;
+        margin: 8px 0;
+        padding: 10px 4px 10px;
+        background: rgba(202, 196, 196, 0.753);
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Florence, cursive;
+        overflow: hidden;
+        border: 0.5px solid #000000;
+        transition: 0.5s;
+        z-index: 1;}
+        
+
+      .elmer-3:hover .intro1{
+        opacity: 0.5;
+      }
+      .elmer-3 .intro1:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+
+
+
+
+
+
+
+
+      .elmer-3{
+        position: absolute;
+        top: 610px;
+        right: 50px;
+        left: -700px;
+        width: 400px;
+        height: 400;
+        margin: 40px auto;
+        padding: 20px;
+        background: rgba(4, 4, 34, 0.753);
+        border-radius: 5px;
+        color: azure;
+        word-wrap: break-word;
+        box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+        .contactame{
+          position: relative;
+          width: 330px;
+          top: -20px;
+          left: 35px;
+          margin: 0px auto;
+          padding: 20px;
+          background: rgba(0, 0, 0, 0.986);
+          border-radius: 5px;
+          color: azure;
+          word-wrap: break-word;
+          box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+          .elmer-4{
+            position: absolute;
+            top: 948px;
+            right: 50px;
+            left: -700px;
+            width: 400px;
+            height: 350px;
+            margin: 40px auto;
+            padding: 20px;
+            background:  rgba(4, 4, 34, 0.753);
+            border-radius: 5px;
+            color: azure;
+            word-wrap: break-word;
+            box-shadow: 0px 0px 15px rgba(0,0,0, .5);}    
+  .habilidades {        
+      position: relative;
+      width: 330px;
+      top: -20px;
+      left: 35px;
+      margin: 0px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.986);
+      border-radius: 5px;
+      color: azure;
+      word-wrap: break-word;
+      box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+    .skills{
+      position: relative;
+      display: flex;
+      margin: 8px 0;
+      padding: 10px 4px 10px;
+      background: linear-gradient(#616161 0%, #333 10%, #222);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 0.5px solid #000000;
+      transition: 0.5s;
+    }
+    .skills:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: rgba(255, 255,255, 0.1);
+        z-index: 10;
+    }
+    .skills .name{
+      position: relative;
+      width: 160px;
+      margin-left: 4px;
+      text-align: left;
+      color: #ffffff;
+      margin-top: -2px;
+      text-decoration: blink;
+      text-transform: uppercase;
+    }
+    .skills .valor{
+      position: relative;
+      width: 30px;
+      text-align: right;
+      color: #ffffff;
+      margin-top: -2px;
+      margin-left: 5px;
+      text-transform: uppercase;}
+      .skills .porcent{
+      position: relative;
+      width: 180px;
+      height: 18px;
+      margin: -0px 3px;
+      border-radius: 10px;
+      background: #151515;
+      box-shadow: inset 0 0 8px #000000;
+      overflow: hidden;}
+      .progress{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 18px;
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: inset 0 0 8px #000000;
+        animation: animate 4s ease-in-out forwards;
+      }
+      @keyframes animate{
+        from{
+          width: 0;
+        }
+      }
+      .skills:nth-child(1) .porcent .progress{
+        background: linear-gradient(45deg,#1fe6ff,#673AB7);
+      }
+      .skills:nth-child(2) .porcent .progress{
+        background: linear-gradient(45deg,#ca6008,rgb(93, 211, 231));
+      }
+      .skills:nth-child(3) .porcent .progress{
+        background: linear-gradient(45deg,#498512,rgb(240, 217, 12));
+      }
+      .skills:nth-child(4) .porcent .progress{
+        background: linear-gradient(45deg,#df11b2,rgb(241, 9, 9));
+      }
+      .skills:nth-child(5) .porcent .progress{
+        background: linear-gradient(45deg,#042e33,rgb(17, 235, 10));
+      }
+      .skills:nth-child(6) .porcent .progress{
+        background: linear-gradient(45deg,#39dd10,rgb(241, 162, 14));
+      }
+      
+      .contenido:hover .skills{
+        opacity: 0.5;
+      }
+      .contenido .skills:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+
+.elmer-5{
+            position: absolute;
+            top: 1345px;
+            right: 50px;
+            left: -700px;
+            height: 150px;
+            width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background:  rgba(4, 4, 34, 0.753);
+            border-radius: 5px;
+            color: azure;
+            word-wrap: break-word;
+            box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+.intereses{
+  position: relative;
+  width: 330px;
+  top: -20px;
+  left: 35px;
+  margin: 0px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.986);
+  border-radius: 5px;
+  color: azure;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 15px rgba(0,0,0, .5);
+}
+
+.busqueda{
+  position: relative;
+  right: -50%;
+  top: -90px;} 
+  
+.elmer-6{
+  position: absolute;
+  top: 20px;
+  right: -593px;
+  left: -50px;
+  width: 800px;
+  height: 250px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(56, 54, 53, 0.972);
+  border-radius: 5px;
+  word-wrap: break-word;
+  color: azure;
+  box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+
+.modi{
+  position: relative;
+  right: -15%;
+  top: -100px;
+  font-size: 20px;
+}
+.educacion{
+  position: relative;
+  top: -210px;
+  left: -380px;
+  color: rgb(255, 249, 249);
+  font-size: 40px;
+  text-shadow: 5px 10px 29px #141206;
+  transform: rotate(-90deg);
+  
+}
+.logos{
+  position: relative;
+  top: -110px;
+  left: 480px;
+}
+.elmer-7{
+  position: absolute;
+  top: 315px;
+  right: -593px;
+  left: -50px;
+  width: 800px;
+  height: 220px;
+  margin: 40px auto;
+  padding: 20px;
+  background:  rgba(56, 54, 53, 0.972);
+  border-radius: 5px;
+  word-wrap: break-word;
+  color: azure;
+  box-shadow: 0px 0px 15px rgba(0,0,0, .5);}
+.cursos{
+    position: relative;
+    top: -280px;
+    left: -380px;
+  color: rgb(255, 253, 253);
+  font-size: 40px;
+  text-shadow: 5px 10px 29px #141206;
+  transform: rotate(-90deg);
+}
+.elmer-8{
+   position: absolute;
+  top: 583px;
+  right: -593px;
+  left: -50px;
+  width: 800px;
+  height: 615px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(56, 54, 53, 0.972);
+  border-radius: 5px;
+  word-wrap: break-word;
+  color: azure;
+  box-shadow: 0px 0px 15px rgba(0,0,0, .5);} 
+.competencia{
+  position: relative;
+  top: 0px;
+  left: -380px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-shadow: 5px 10px 29px #141206;
+  transform: rotate(-90deg);}
+  .modi1{
+    position: relative;
+    right: -15%;
+    top: -130px;
+    font-size: 20px;}
+
+    .skills1{
+      position: relative;
+      display: flex;
+      right: -100PX;
+      width: 600PX;
+      top: -125PX;
+      margin: 8px 0;
+      padding: 10px 4px 10px;
+      background: linear-gradient(#3c473b 0%, rgb(65, 66, 51) 10%, rgb(32, 23, 8));
+      border-radius: 10px;
+      overflow: hidden;
+      border: 0.5px solid #000000;
+      transition: 0.5s;
+    }
+    .skills1:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: rgba(75, 56, 56, 0.1);
+        z-index: 10;
+    }
+    .skills1 .name{
+      position: relative;
+      width: 170px;
+      margin-left: 4px;
+      text-align: left;
+      color: #ffffff;
+      margin-top: -2px;
+      text-decoration: blink;
+      text-transform: uppercase;
+    }
+    .skills1 .valor{
+      position: relative;
+      width: 60px;
+      text-align: right;
+      color: #ffffff;
+      margin-top: -2px;
+      margin-left: 5px;
+      text-transform: uppercase;}
+      .skills1 .porcent{
+      position: relative;
+      width: 280px;
+      height: 14px;
+      margin: -0px 3px;
+      border-radius: 10px;
+      background: #151515;
+      box-shadow: inset 0 0 8px #000000;
+      overflow: hidden;}
+      .progress1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 14px;
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: inset 0 0 8px #000000;
+        animation: animate1 4s ease-in-out forwards;
+      }
+      @keyframes animate1{
+        from{
+          width: 0;
+        }
+      }
+      .skills1:nth-child(1) .porcent .progress1{
+        background: linear-gradient(45deg,#1fe6ff,#673AB7);
+      }
+      .skills1:nth-child(2) .porcent .progress1{
+        background: linear-gradient(45deg,#ca6008,rgb(93, 211, 231));
+      }
+      .skills1:nth-child(3) .porcent .progress1{
+        background: linear-gradient(45deg,#498512,rgb(240, 217, 12));
+      }
+      .skills1:nth-child(4) .porcent .progress1{
+        background: linear-gradient(45deg,#df11b2,rgb(241, 9, 9));
+      }
+      .skills1:nth-child(5) .porcent .progress1{
+        background: linear-gradient(45deg,#042e33,rgb(17, 235, 10));
+      }
+      .skills1:nth-child(6) .porcent .progress1{
+        background: linear-gradient(45deg,#39dd10,rgb(241, 162, 14));
+      }
+      .skills1:nth-child(7) .porcent .progress1{
+        background: linear-gradient(45deg,#1fe6ff,#673AB7);
+      }
+      .skills1:nth-child(8) .porcent .progress1{
+        background: linear-gradient(45deg,#ca6008,rgb(93, 211, 231));
+      }
+      .skills1:nth-child(9) .porcent .progress1{
+        background: linear-gradient(45deg,#498512,rgb(240, 217, 12));
+      }
+      .skills1:nth-child(10) .porcent .progress1{
+        background: linear-gradient(45deg,#df11b2,rgb(241, 9, 9));
+      }
+      .skills1:nth-child(11) .porcent .progress1{
+        background: linear-gradient(45deg,#042e33,rgb(17, 235, 10));
+      }
+      .skills1:nth-child(12) .porcent .progress1{
+        background: linear-gradient(45deg,#39dd10,rgb(241, 162, 14));
+      }
+      .contenido1:hover .skills1{
+        opacity: 0.5;
+      }
+      .contenido1 .skills1:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+
+    .elmer-9{
+      position: absolute;
+     top: 1245px;
+     right: -593px;
+     left: -50px;
+     width: 800px;
+     height: 250px;
+     margin: 40px auto;
+     padding: 20px;
+     background:  rgba(56, 54, 53, 0.972);
+     border-radius: 5px;
+     word-wrap: break-word;
+     color: azure;
+     box-shadow: 0px 0px 15px rgba(0,0,0, .5);} 
+  .fortalezas{
+    position: relative;
+    top: -205px;
+    left: -380px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-shadow: 5px 10px 29px #141206;
+    transform: rotate(-90deg);}
+
+    .modi2{
+      position: relative;
+      right: -15%;
+      top: -55px;
+      font-weight: bold;
+      font-size: 30px;}
+    .img4{
+      position: relative;
+      top: -270px;
+      left: 340px;
+    }
+    .img3{
+      position: relative;
+      top: -300px;
+      left: 380px;}
+.color1{
+  color: #141206;
+}
